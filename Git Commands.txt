@@ -40,3 +40,6 @@ git branch tester => create tester branch
 
 git switch tester => switch to tester branch
 
+git branch -d tester => delete the tester branch
+
+git merge -m "merging the tester branch to main" 	
