@@ -27,6 +27,8 @@ git commit -m "message" => Commit the files
 
 git log = > check the log
 
-git diff => checking the file difference
+git log - p = > check the log
 
+git diff filename => checking the file difference ( before add)
 
+git diff  => checking the all file difference ( before add)
