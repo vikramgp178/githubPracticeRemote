@@ -1,0 +1,32 @@
+git config --global user.name "vikram phatangare"
+git config --global user.email "vikramgp178@gmail.com"
+git config --global init.default branch main
+
+git help config
+
+git init => for creating git project
+
+git status = > check the status
+
+git branch -m master main => switch master branch to main branch
+
+git status = > check the status
+
+git add filename => track the single file 
+
+git add . => track the all files
+
+git rm -cached filename => untrack the single file 
+
+git rm -cached . => untrack the single file 
+
+.gitignore =>  add extension of file which you do not want to track (*.jpg,*.temp) and add inside of .gitignore file
+
+
+git commit -m "message" => Commit the files
+
+git log = > check the log
+
+git diff => checking the file difference
+
+
