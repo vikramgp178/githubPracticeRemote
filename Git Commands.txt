@@ -31,4 +31,20 @@ git log - p = > check the log
 
 git diff filename => checking the file difference ( before add)
 
+<<<<<<< HEAD
 git diff  => checking the all file difference ( before add)
+=======
+----------------------
+
+branching
+
+git branch => see all branches
+
+git branch tester => create tester branch
+
+git switch tester => switch to tester branch
+
+git branch -d tester => delete the tester branch
+
+git merge -m "merging the tester branch to main" 	
+>>>>>>> tester
