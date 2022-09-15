@@ -30,3 +30,13 @@ git log = > check the log
 git diff => checking the file difference
 
 
+----------------------
+
+branching
+
+git branch => see all branches
+
+git branch tester => create tester branch
+
+git switch tester => switch to tester branch
+
