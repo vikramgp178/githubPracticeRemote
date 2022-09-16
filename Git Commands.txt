@@ -54,6 +54,8 @@ git merge -m "merging the tester branch to main" tester => switch to main then m
 git remote add origin https://github.com/vikramgp178/githubPracticeRemote.git >> add remote origin
 git branch -M main >> navigate to main branch
 git push -u origin main >> push all code to remote location i.e. github
+git push --all >> push everything with branches to remote
+
 
 do the changes on remote file
 
