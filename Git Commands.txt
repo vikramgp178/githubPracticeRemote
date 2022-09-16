@@ -44,6 +44,37 @@ git switch tester => switch to tester branch
 git branch -d tester => delete the tester branch
 
 
->>>merging
+>>>  merging
 
 git merge -m "merging the tester branch to main" tester => switch to main then merge all changes of teseter branch to main branch
+
+
+>>> Git hub remote
+
+git remote add origin https://github.com/vikramgp178/githubPracticeRemote.git >> add remote origin
+git branch -M main >> navigate to main branch
+git push -u origin main >> push all code to remote location i.e. github
+
+do the changes on remote file
+
+git fetch >> fetch the changes from remote barnch
+git merge >> merge the changes into local branch
+
+
+or directly use 
+
+git pull >> instead of git fetch and merge use directly git pull
+
+
+-----------------------------
+Get project from remote mahcine to local
+
+create folder on local machine
+
+enter command
+
+git init
+git pull URL
+
+
+
